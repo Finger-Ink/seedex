@@ -23,7 +23,7 @@ defmodule Seedex.Mixfile do
     [
       extra_applications: [:ecto],
       applications: applications(Mix.env()),
-      description: 'Seed data generation for Ecto'
+      description: ~c'Seed data generation for Ecto'
     ]
   end
 
